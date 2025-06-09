@@ -1,0 +1,25 @@
+.nav{
+    background-color: #808080;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.nav__link{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:540px){
+    .nav__link{
+        flex-direction: row;
+    }
+
+    .nav__link i{
+        display: none;
+    }
+}
